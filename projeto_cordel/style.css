@@ -7,40 +7,115 @@
     font-family: Gilroy-MediumItalic;
     src: url(fonts/Gilroy-MediumItalic.ttf);
 }
-header{
-    background-color: black;
-    color: white;
-    padding: 10px;
+*{
+    margin: 0px;
 }
 .flexbox-container{
+    background-color: black;
+    color: white;
+    height: 200px;
+        /*---FLEX CONFIG---*/
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-}
-.title{
-    
-}
-.autor{
-    
-
-}
-.logo-container{
-    display: flex;
-    justify-content: flex-end; 
-      
- 
-}
-.logo{
-   
-
+    justify-content: center;
 }
 .title > h1{
     margin: 0px;
     font-family: Gilroy-ExtraBold;
     font-size: 4em;
 }
-body{
-    margin: 0px;
+.autor{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.flexbox-container > div > p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.poesia{
+    padding: 20px;
+    font-weight: 900;
+    /*font-size: 2.5rem;*/
+    font-family: Gilroy-MediumItalic;
+    margin: 50px 0px 50px 25px ;
+    line-height: 10vw;
+    font-size: 4vw;
+   
+    
+}
+.image-container{
+   display: flex;
+   background-image: url(images/371805584_6362453860544041_2664290163681309590_n.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   height: 60vh;
+}
+.image-container2{
+    display: flex;
+    background-image: url(images/img2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 80vh;
+    align-content: center;
+}
+.caixa-poesia{
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+footer{
+    background-color: rgb(14, 14, 14);
+    height: 80px;
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgb(51, 51, 51);
+    font-family: Gilroy-MediumItalic;
+    align-content: center;
+    justify-content: center;
+    
+
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    
+   
+} 
+.logo{
+    width: 25px;
+    height: 25px;
+    
+    color: rgb(53, 53, 53);
+    
+
+}   
+    
+    
+
+.criador{
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    justify-content: center;
+    padding: 2px;
+    font-family: sans-serif;
+    font-size: small;
+}
